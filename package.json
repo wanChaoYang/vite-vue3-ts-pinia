@@ -1,0 +1,34 @@
+{
+  "name": "vite-vue3-ts-pinia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "eslint:comment": "src",
+    "eslint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "prettier:comment": "src",
+    "prettier": "prettier --write"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "vue": "^3.2.45",
+    "vue-qr": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/parser": "^5.49.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vue-tsc": "^1.0.11"
+  }
+}
